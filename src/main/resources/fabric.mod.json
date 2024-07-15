@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "spun",
+	"version": "${version}",
+	"name": "Spun",
+	"description": "Basic technology",
+	"authors": [
+		"Stohun"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/spun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stohun.spun.Spun"
+		],
+		"client": [
+			"net.stohun.spun.SpunClient"
+		],
+		"fabric-datagen": [
+			"net.stohun.spun.SpunDataGenerator"
+		]
+	},
+	"mixins": [
+		"spun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
