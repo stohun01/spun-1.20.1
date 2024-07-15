@@ -1,0 +1,10 @@
+{
+  "itemgroup.spun": "Spun",
+
+  "item.spun.sludge": "Sludge",
+  "item.spun.cerebrum": "Cerebrum",
+  "item.spun.cerebrum_charged": "Charged Cerebrum",
+
+  "block.spun.cerebrum_block": "Cerebrum Block",
+  "block.spun.cerebrum_charged_block": "Charged Cerebrum Block"
+}

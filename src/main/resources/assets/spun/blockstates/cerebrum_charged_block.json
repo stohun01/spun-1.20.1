@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spun:block/cerebrum_charged_block"
+    }
+  }
+}
