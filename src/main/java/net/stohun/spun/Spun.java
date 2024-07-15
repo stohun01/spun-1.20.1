@@ -11,6 +11,6 @@ public class Spun implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+
 	}
 }
