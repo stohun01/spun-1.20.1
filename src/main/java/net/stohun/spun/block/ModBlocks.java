@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.GlazedTerracottaBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -15,9 +16,13 @@ import net.stohun.spun.Spun;
 public class ModBlocks {
 
     public static final Block CEREBRUM_BLOCK = registerBlock("cerebrum_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.BONE)));
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.CYAN_GLAZED_TERRACOTTA).sounds(BlockSoundGroup.BONE)));
     public static final Block CEREBRUM_CHARGED_BLOCK = registerBlock("cerebrum_charged_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.BONE)));
+            new GlazedTerracottaBlock(FabricBlockSettings.copyOf(Blocks.CYAN_GLAZED_TERRACOTTA)
+                    .sounds(BlockSoundGroup.BONE)
+//                    .emissiveLighting(Blocks::always)
+//                    .luminance(1)
+                    ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

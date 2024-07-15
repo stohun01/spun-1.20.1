@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "spun:block/cerebrum_charged_block",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "spun:block/cerebrum_charged_block",
+      "y": 180
+    },
+    "facing=south": {
       "model": "spun:block/cerebrum_charged_block"
+    },
+    "facing=west": {
+      "model": "spun:block/cerebrum_charged_block",
+      "y": 90
     }
   }
 }

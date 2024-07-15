@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "spun:cerebrum"
+    }
+  },
+  "result": {
+    "item": "spun:cerebrum_block"
+  }
+}

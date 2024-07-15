@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "spun:cerebrum_block"
+    }
+  ],
+  "result": {
+    "item": "spun:cerebrum",
+    "count": 4
+  }
+}
